@@ -78,8 +78,6 @@ No subscription, no deployment, no `az login`. These are the fastest way to sani
 | [Microsoft Copilot](https://copilot.microsoft.com/) | 🟢 | The free consumer/web Copilot — chat, image generation and web-grounded answers, no licence needed. *Handy as a zero-friction "show me what an LLM does" opener in a workshop before you get into architecture.* |
 | [Microsoft Learn sandbox exercises](https://learn.microsoft.com/en-us/training/) | 🟢 | Many Learn modules include a hosted sandbox that provisions temporary Azure resources for the exercise — no subscription of your own required. *The cheapest hands-on lab environment in this whole document.* |
 
-> 💡 **Don't add GitHub Models.** It was a popular free playground and model catalogue, but it was fully retired on 30 July 2026 — playground, catalogue, inference API and BYOK are all gone. Microsoft points new and existing projects at Azure AI Foundry / Microsoft Foundry instead. (GitHub Copilot is a separate service and is unaffected.)
-
 ## 4. Microsoft 365 & Graph
 
 | Offer | Type | What you get |
@@ -113,8 +111,6 @@ No subscription, no deployment, no `az login`. These are the fastest way to sani
 
 ## 8. Security & threat protection
 
-The area where SAP and Microsoft overlap most concretely — and the one that gets the least airtime at SAP events. SAP systems hold the crown jewels but traditionally give security operations teams very little visibility, which is precisely the gap these fill.
-
 | Offer | Type | What you get |
 |---|---|---|
 | [Microsoft Sentinel — free trial](https://learn.microsoft.com/en-us/azure/sentinel/billing) | 🟡 | Enable Sentinel on a Log Analytics workspace and the **first 10 GB/day ingested on the Analytics logs plan is free for 31 days** — both the Log Analytics ingestion charge and the Sentinel analysis charge are waived up to that limit. Subject to a 20-workspace limit per Azure tenant. Automation, bring-your-own-ML and data lake charges still apply. *31 days and 10 GB/day is genuinely enough to run a real SAP security proof of concept end to end.* |
@@ -124,7 +120,6 @@ The area where SAP and Microsoft overlap most concretely — and the one that ge
 | [MSRC Security Update Guide](https://msrc.microsoft.com/update-guide) | 🟢 | Microsoft's authoritative, free CVE and patch database, with filtering, an API and exportable data. *If you track patch cadence across an enterprise estate — and compare it with SAP Security Patch Day — this is the primary source, not a blog summary.* |
 | [Microsoft Sentinel documentation](https://learn.microsoft.com/en-us/azure/sentinel/) | 🟢 | Full deployment guides, KQL reference and detection content. *Heads-up worth repeating on stage: after 31 March 2027 Sentinel will no longer be supported in the Azure portal and moves entirely to the Microsoft Defender portal — plan any demo environment accordingly.* |
 
-> 🧵 **Conversation starter for TechEd:** the April 2026 supply-chain attack on the SAP Cloud Application Programming Model showed how a compromised development component can reach into SAP BTP environments and business data. Microsoft published a Security blog walkthrough and an end-to-end attack replay showing Defender for Endpoint, Sentinel and Security Copilot detecting and responding to it — linked from the Sentinel-for-SAP overview above. It is a much better hook than a feature list.
 
 ## 9. Developer tooling
 
