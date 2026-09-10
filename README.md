@@ -32,9 +32,9 @@ This list solves exactly that problem. Everything here is something you can sign
 **A suggested first hour, if you're starting from zero:**
 
 1. **[Azure free account](https://azure.com/free)** — your USD 200 of credit and the always-free services. Set a budget alert immediately.
-2. **[Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)** — check your eligibility *first*, because this is the one that unlocks everything else. A renewable **Microsoft 365 E5 developer sandbox**: your own tenant, 25 user licences, Teams, SharePoint, Outlook and Office pre-provisioned with sample data. It means you can build and demo against a real tenant instead of borrowing a customer's. If you hold a Visual Studio Professional or Enterprise *standard* subscription, link it and the sandbox auto-renews for as long as that subscription lives.
+2. **[Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)** — check your eligibility *first*, because this is the one that unlocks everything else. A renewable **Microsoft 365 E5 developer sandbox**: your own tenant, 25 user licences, Teams, SharePoint, Outlook and Office pre-provisioned with sample data. Crucially, the sandbox gives you Microsoft Entra ID-backed **work or school accounts** (for example, `admin@yourtenant.onmicrosoft.com`). You can use one of these accounts wherever a personal Microsoft account is not accepted — including to sign up for Copilot Studio and the Power Apps Developer Plan. It means you can build and demo against a real tenant instead of borrowing a customer's. If you hold a Visual Studio Professional or Enterprise *standard* subscription, link it and the sandbox auto-renews for as long as that subscription lives.
 3. **[Power Apps Developer Plan](https://learn.microsoft.com/en-us/power-platform/developer/plan)** — free, and the only place you get premium and custom connectors without a licence. This is where an SAP OData proof of concept actually happens.
-4. **[Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio)** — start the trial early, because this is where the strategic conversation is right now. It is the low-code surface where an agent meets your business process: connectors, topics, actions, and — via [MCP](https://modelcontextprotocol.io/) — tools that reach into an SAP system. If you only build one thing this year to show a customer, build this. Pair it with the developer tenant from step 2 and the connectors from step 3 and you have a complete, licence-free path from prompt to SAP transaction.
+4. **[Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio)** — start the trial early using a **work or school account from the developer tenant in step 2**, because this is where the strategic conversation is right now. It is the low-code surface where an agent meets your business process: connectors, topics, actions, and — via [MCP](https://modelcontextprotocol.io/) — tools that reach into an SAP system. If you only build one thing this year to show a customer, build this. Pair it with the developer tenant from step 2 and the connectors from step 3 and you have a complete, licence-free path from prompt to SAP transaction.
 5. **[GitHub Copilot Free](https://github.com/features/copilot/plans)** in **[VS Code](https://code.visualstudio.com/)** — no card, agent mode, MCP support.
 6. **An [AI playground](#3-ai-playgrounds--try-before-you-build)** — five minutes to find out whether a model can do the thing, before you build anything around it.
 7. **[Microsoft Learn](https://learn.microsoft.com/en-us/training/)** — free training with hosted sandboxes, plus the [SAP on Azure](https://learn.microsoft.com/en-us/azure/sap/) documentation.
@@ -84,7 +84,7 @@ No subscription, no deployment, no `az login`. These are the fastest way to sani
 
 | Offer | Type | What you get |
 |---|---|---|
-| [Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program) | 🟢 | A free, renewable **Microsoft 365 E5 developer subscription** — instant sandbox tenant, 25 user licences, pre-provisioned Teams/SharePoint/Outlook/Office and sample data. Eligibility via a Visual Studio Professional/Enterprise **standard** subscription, or via the ISV Success Program / eligible Microsoft AI Cloud Partner Program tiers. Joining directly gives a 90-day renewable sandbox; linking a Visual Studio subscription makes it auto-renew. *A clean tenant for Teams apps, Graph calls and Copilot extensibility — without touching a customer's production tenant.* |
+| [Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program) | 🟢 | A free, renewable **Microsoft 365 E5 developer subscription** — instant sandbox tenant, 25 user licences, pre-provisioned Teams/SharePoint/Outlook/Office and sample data. Those users are Microsoft Entra ID-backed **work or school accounts**, so they also provide the organizational identity required to sign up for services such as Copilot Studio and the Power Apps Developer Plan. Eligibility via a Visual Studio Professional/Enterprise **standard** subscription, or via the ISV Success Program / eligible Microsoft AI Cloud Partner Program tiers. Joining directly gives a 90-day renewable sandbox; linking a Visual Studio subscription makes it auto-renew. *A clean tenant for Teams apps, Graph calls and Copilot extensibility — without touching a customer's production tenant.* |
 | [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | 🟢 | Run Graph queries in the browser against sample data or your own tenant, zero setup. |
 | [Microsoft 365 developer docs & Agents Toolkit](https://learn.microsoft.com/en-us/microsoft-365/developer/) | 🟢 | Free tooling for Teams apps, message extensions and M365 Copilot agents, including the VS Code extension. *Surface an SAP approval or PO lookup directly in Teams.* |
 
@@ -141,14 +141,14 @@ The area where SAP and Microsoft overlap most concretely — and the one that ge
 |---|---|---|
 | [Microsoft Learn training](https://learn.microsoft.com/en-us/training/) | 🟢 | The full self-paced catalogue, including hands-on sandbox exercises that run without your own subscription. |
 | [Exam AZ-120: Azure for SAP Workloads](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-120/) | 🟢 | Study guide, learning paths and prep material are free; only the exam is paid. *The clearest credential for an SAP architect moving into Azure.* |
-| [Explore Azure for SAP workloads (learning path)](https://learn.microsoft.com/en-us/training/paths/explore-azure-sap-workloads/) | 🟢 | Introductory path on architecting, sizing and operating SAP on Azure. |
+| [Explore Azure for SAP workloads (learning path)](https://learn.microsoft.com/en-us/training/paths/explore-azure-for-sap-workloads/) | 🟢 | Introductory path on architecting, sizing and operating SAP on Azure. |
 
 ## 11. Partner & startup programs
 
 | Offer | Type | What you get |
 |---|---|---|
 | [Microsoft AI Cloud Partner Program](https://partner.microsoft.com/) | 🟣 | Joining is free; benefit packages such as the Microsoft Action Pack carry a modest annual fee and bundle internal-use software, Azure credits, technical benefits and go-to-market support. *Also a qualifying route into the M365 E5 developer sandbox.* |
-| [ISV Success Program](https://partner.microsoft.com/en-us/asset/collection/isv-success-program) | 🟣 | Development credits, technical consultations and marketplace publishing support for software vendors. Also a qualifying path for the M365 developer sandbox. |
+| [ISV Success / Frontier Accelerate for Marketplace](https://partner.microsoft.com/en-us/partnership/frontier-accelerate-for-marketplace) | 🟣 | Development credits, technical consultations and marketplace publishing support for software vendors. Also a qualifying path for the M365 developer sandbox. |
 | [Microsoft for Startups Founders Hub](https://www.microsoft.com/en-us/startups) | 🟡 | Azure credits, AI services access, developer tools and technical support for eligible startups, granted in tiers. *By far the largest pool of free Azure on this list.* |
 
 ## 12. Community & content
@@ -157,7 +157,7 @@ The area where SAP and Microsoft overlap most concretely — and the one that ge
 |---|---|---|
 | [Microsoft Tech Community — SAP on Azure](https://techcommunity.microsoft.com/category/sap) | 🟢 | Blogs, announcements and Q&A from the teams working on SAP integration and SAP on Azure. |
 | [SAP on Azure scripts and utilities](https://github.com/Azure/SAP-on-Azure-Scripts-and-Utilities) | 🟢 | Microsoft's open-source scripts and utilities for deploying and operating SAP on Azure. |
-| [SAP on Azure video podcast](https://learn.microsoft.com/en-us/shows/sap-on-azure-video-podcast/) | 🟢 | Regular conversations with SAP and Microsoft engineers and community members. |
+| [SAP on Azure video podcast](https://www.youtube.com/@SAPonAzure) | 🟢 | Regular conversations with SAP and Microsoft engineers and community members. |
 
 ---
 
